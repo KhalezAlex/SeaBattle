@@ -5,4 +5,5 @@ abstract class Player {
     boolean hasDamagedShip;
     Field field;
     List<Ship> listOfShips;
+    boolean isAlive;
 }

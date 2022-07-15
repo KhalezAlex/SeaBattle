@@ -7,6 +7,7 @@ public class PC extends Player {
         this.field = new Field("P1Field.txt");
         this.hasDamagedShip = false;
         this.listOfShips = new ArrayList<>();
+        this.isAlive = true;
     }
 
     private void setVerticalShip(Ship ship) {
